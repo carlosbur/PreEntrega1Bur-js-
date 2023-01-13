@@ -1,7 +1,13 @@
+function saludar() {
+    let nombre = prompt(`Bienvenido a Budo Shop!!! Cuáles es tu nombre??`)
+    alert(`Hola ${nombre}, a continuación, te guiaremos por nuestro sitio`)
+}
+
+saludar()
+
 let salirMenu = true
 do {
-    let opcionMenu = prompt(`Bienvenido a Budo Shop!!!
-    Qué desea hacer?
+    let opcionMenu = prompt(`Indique qué desea hacer:
     1 - Comprar un producto.
     2 - Devolver un producto
     3 - Salir del menú`)
